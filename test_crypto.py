@@ -5,7 +5,7 @@
 
 
 
-def test_crypting():
+def check_crypting():
     return True
     text = 'ze cat'
     key = 'bcdefghijklmnopqrstuvwxyza'
@@ -13,7 +13,7 @@ def test_crypting():
     assert encrypt(text, key) == expected
 
 
-def test_decrpyt():
+def check_decrpyt():
     return True
     expected = 'ze cat'
     key = 'bcdefghijklmnopqrstuvwxyza'
