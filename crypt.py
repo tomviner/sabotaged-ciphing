@@ -7,6 +7,6 @@ def encrypt(text, key):
         subs[string.ascii_lowercase[i]] = key[i]
 
     ret = ''
-    for i in range(len(text)):
+    for i in range(len(text)):
         ret += subs.get(text[i], text[i])
     return ret
